@@ -10,7 +10,7 @@ import axios from "../../axios-orders";
 import * as actions from "../../store/actions/index";
 import { connect } from "react-redux";
 
-const BurgerBuilder = (props) => {
+export const BurgerBuilder = (props) => {
   const [purchasing, setPurchasing] = useState(false);
 
   useEffect(() => {
