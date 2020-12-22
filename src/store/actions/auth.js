@@ -78,9 +78,11 @@ export const setAuthRedirectPath = (path) => {
 export const authCheckState = () => {
   return (dispatch) => {
     const authReducer = JSON.parse(
-      JSON.parse(localStorage.getItem("persist:rootReducer")).auth
+      JSON.parse(localStorage.getItem("persist:rootReducer"))
+        ? JSON.parse(localStorage.getItem("persist:rootReducer")).auth
+        : null
     );
-    const token = authReducer.token;
+    const token = authReducer ? authReducer.token : null;
     if (!token) {
       dispatch(authLogout());
     } else {
