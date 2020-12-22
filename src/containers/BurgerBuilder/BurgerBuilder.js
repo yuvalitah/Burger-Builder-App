@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Aux from "../../hoc/Auxiliary/Auxiliary";
 import Burger from "../../components/Burger/Burger";
 import BuildControls from "../../components/Burger/BuildControls/BuildControls";
 import Modal from "../../components/UI/Modal/Modal";
@@ -61,7 +60,7 @@ export const BurgerBuilder = (props) => {
 
   if (props.ings) {
     burger = (
-      <Aux>
+      <>
         <Burger ingredients={props.ings} />
         <BuildControls
           ingredientAdded={props.onIngredientAdded}
@@ -72,7 +71,7 @@ export const BurgerBuilder = (props) => {
           isAuth={props.isAuthenticated}
           ordered={purchaseHandler}
         />
-      </Aux>
+      </>
     );
 
     orderSummary = (
@@ -86,12 +85,12 @@ export const BurgerBuilder = (props) => {
   }
 
   return (
-    <Aux>
+    <>
       <Modal show={purchasing} modalClosed={purchaseCancelHandler}>
         {orderSummary}
       </Modal>
       {burger}
-    </Aux>
+    </>
   );
 };
 
