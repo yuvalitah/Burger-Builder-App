@@ -1,4 +1,6 @@
-# Table Of Contents
+# Burger-Builder-App
+
+## Table Of Contents
   - [Introduction](#introduction)
   - [Technologies](#technologies)
   - [Installation](#installation)
