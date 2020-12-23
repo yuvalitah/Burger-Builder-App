@@ -9,7 +9,6 @@
 Burger Builder Application for making and ordering burgers. This app was made with the help of the Udemy course [React - The Complete Guide](https://www.udemy.com/course/react-the-complete-guide-incl-redux/). 
 
 ## Technologies
-***
 
 * [Create React App](https://github.com/facebook/create-react-app) v17.0.1
 * [Redux](https://github.com/reduxjs/redux) v4.0.5
@@ -21,7 +20,6 @@ Burger Builder Application for making and ordering burgers. This app was made wi
 * [Enzyme](https://github.com/enzymejs/enzyme) v3.11.0
 
 ## Installation
-***
 
 Use the package manager [npm](https://www.npmjs.com/) to install Burger-Builder-App.
 
