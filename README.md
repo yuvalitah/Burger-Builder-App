@@ -19,6 +19,7 @@ Burger Builder Application for making and ordering burgers. This app was made wi
 * [Redux-Thunk](https://github.com/reduxjs/redux-thunk) v2.3.0
 * [Axios](https://github.com/axios/axios) v0.21.0
 * [Firebase](https://firebase.google.com/)
+* [React-Router-Dom](https://github.com/ReactTraining/react-router) v5.2.0
 * [Enzyme](https://github.com/enzymejs/enzyme) v3.11.0
 
 ## Installation
