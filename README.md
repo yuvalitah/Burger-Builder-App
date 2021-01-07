@@ -8,19 +8,21 @@
 
 ## Introduction
 
-Burger Builder Application for making and ordering burgers. This app was made with the help of the Udemy course [React - The Complete Guide](https://www.udemy.com/course/react-the-complete-guide-incl-redux/). 
+Burger Builder Application build with ReactTS for making and ordering burgers. This app was made with the help of the Udemy course [React - The Complete Guide](https://www.udemy.com/course/react-the-complete-guide-incl-redux/). 
 
 ## Technologies
 
-* [Create React App](https://github.com/facebook/create-react-app) v17.0.1
-* [Redux](https://github.com/reduxjs/redux) v4.0.5
-* [React-Redux](https://github.com/reduxjs/react-redux) v7.2.2
+* [Create React App](https://create-react-app.dev/docs/getting-started/) v17.0.1
+* [Typescript](https://www.typescriptlang.org/) v4.1.3
+* [Prop-Types](https://www.npmjs.com/package/prop-types) v15.7.2
+* [Redux](https://redux.js.org/introduction/getting-started) v4.0.5
+* [React-Redux](https://react-redux.js.org/introduction/quick-start) v7.2.2
 * [Redux-Persist](https://github.com/rt2zz/redux-persist) v6.0.0
 * [Redux-Thunk](https://github.com/reduxjs/redux-thunk) v2.3.0
 * [Axios](https://github.com/axios/axios) v0.21.0
 * [Firebase](https://firebase.google.com/)
-* [React-Router-Dom](https://github.com/ReactTraining/react-router) v5.2.0
-* [Enzyme](https://github.com/enzymejs/enzyme) v3.11.0
+* [React-Router-Dom](https://reactrouter.com/web/guides/quick-start) v5.2.0
+* [Enzyme](https://enzymejs.github.io/enzyme/) v3.11.0
 
 ## Installation
 
