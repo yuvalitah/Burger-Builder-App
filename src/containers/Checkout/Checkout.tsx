@@ -15,10 +15,10 @@ const Checkout = (props) => {
     props.history.replace("/checkout/contact-data");
   };
 
-  let summary: JSX.Element = <Redirect to="/" />;
+  let summary: JSX.Element = <Redirect to="/Burger-Builder-App" />;
 
   if (props.ings) {
-    const purchasedRedirect: JSX.Element = props.purchased ? <Redirect to="/" /> : null;
+    const purchasedRedirect: JSX.Element = props.purchased ? <Redirect to="/Burger-Builder-App" /> : null;
     summary = (
       <div>
         {purchasedRedirect}

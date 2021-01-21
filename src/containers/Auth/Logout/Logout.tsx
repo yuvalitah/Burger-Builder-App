@@ -13,7 +13,7 @@ const Logout = (props) => {
     logout();
   }, []);
 
-  return <Redirect to="/" />;
+  return <Redirect to="/Burger-Builder-App" />;
 };
 
 const mapDispatchToProps = (dispatch) => {
