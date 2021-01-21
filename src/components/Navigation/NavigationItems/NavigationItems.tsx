@@ -5,16 +5,16 @@ import PropTypes from "prop-types";
 
 const navigationItems = (props) => (
   <ul className={classes.NavigationItems}>
-    <NavigationItem link="/" exact>
+    <NavigationItem link="/Burger-Builder-App" exact>
       Burger Builder
     </NavigationItem>
     {props.isAuthenticated ? (
-      <NavigationItem link="/orders">Orders</NavigationItem>
+      <NavigationItem link="/Burger-Builder-App/orders">Orders</NavigationItem>
     ) : null}
     {props.isAuthenticated ? (
-      <NavigationItem link="/logout">Logout</NavigationItem>
+      <NavigationItem link="/Burger-Builder-App/logout">Logout</NavigationItem>
     ) : (
-      <NavigationItem link="/auth">Authenticate</NavigationItem>
+      <NavigationItem link="/Burger-Builder-App/auth">Authenticate</NavigationItem>
     )}
   </ul>
 );
