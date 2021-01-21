@@ -30,7 +30,7 @@ const App = (props) => {
     <Switch>
       <Route path="/Burger-Builder-App/auth" component={asyncAuth} />
       <Route path="/Burger-Builder-App" exact component={BurgerBuilder} />
-      <Redirect to="/" />
+      <Redirect to="/Burger-Builder-App" />
     </Switch>
   );
 
@@ -42,7 +42,7 @@ const App = (props) => {
         <Route path="/Burger-Builder-App/logout" component={Logout} />
         <Route path="/Burger-Builder-App/auth" component={asyncAuth} />
         <Route path="/Burger-Builder-App" exact component={BurgerBuilder} />
-        <Redirect to="/" />
+        <Redirect to="/Burger-Builder-App" />
       </Switch>
     );
   }
