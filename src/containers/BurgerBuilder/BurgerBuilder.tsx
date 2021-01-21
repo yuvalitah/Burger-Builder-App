@@ -36,7 +36,7 @@ export const BurgerBuilder = (props) => {
       setPurchasing(true);
     } else {
       props.onSetAuthRedirectPath("/checkout");
-      props.history.push("/auth");
+      props.history.push("/Burger-Builder-App/auth");
     }
   };
 
@@ -46,7 +46,7 @@ export const BurgerBuilder = (props) => {
 
   const purchaseContinueHandler = (): void => {
     props.onInitPurchase();
-    props.history.push("/checkout");
+    props.history.push("/Burger-Builder-App/checkout");
   };
 
   const disabledInfo = {

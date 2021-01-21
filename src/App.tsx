@@ -28,8 +28,8 @@ const App = (props) => {
 
   let routes: JSX.Element = (
     <Switch>
-      <Route path="/auth" component={asyncAuth} />
-      <Route path="/" exact component={BurgerBuilder} />
+      <Route path="/Burger-Builder-App/auth" component={asyncAuth} />
+      <Route path="/Burger-Builder-App" exact component={BurgerBuilder} />
       <Redirect to="/" />
     </Switch>
   );
@@ -37,11 +37,11 @@ const App = (props) => {
   if (props.isAuthenticated) {
     routes = (
       <Switch>
-        <Route path="/checkout" component={asyncCheckout} />
-        <Route path="/orders" component={asyncOrders} />
-        <Route path="/logout" component={Logout} />
-        <Route path="/auth" component={asyncAuth} />
-        <Route path="/" exact component={BurgerBuilder} />
+        <Route path="/Burger-Builder-App/checkout" component={asyncCheckout} />
+        <Route path="/Burger-Builder-App/orders" component={asyncOrders} />
+        <Route path="/Burger-Builder-App/logout" component={Logout} />
+        <Route path="/Burger-Builder-App/auth" component={asyncAuth} />
+        <Route path="/Burger-Builder-App" exact component={BurgerBuilder} />
         <Redirect to="/" />
       </Switch>
     );
