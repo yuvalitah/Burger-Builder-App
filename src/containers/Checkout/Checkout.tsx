@@ -12,7 +12,7 @@ const Checkout = (props) => {
   };
 
   const checkoutContinuedHandler = (): void => {
-    props.history.replace("/checkout/contact-data");
+    props.history.replace("/Burger-Builder-App/checkout/contact-data");
   };
 
   let summary: JSX.Element = <Redirect to="/Burger-Builder-App" />;
