@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Burger-Builder-App/static/css/main.42bbe037.chunk.css",
-    "main.js": "/Burger-Builder-App/static/js/main.b3e028bb.chunk.js",
-    "main.js.map": "/Burger-Builder-App/static/js/main.b3e028bb.chunk.js.map",
+    "main.js": "/Burger-Builder-App/static/js/main.279d672f.chunk.js",
+    "main.js.map": "/Burger-Builder-App/static/js/main.279d672f.chunk.js.map",
     "runtime-main.js": "/Burger-Builder-App/static/js/runtime-main.6316881f.js",
     "runtime-main.js.map": "/Burger-Builder-App/static/js/runtime-main.6316881f.js.map",
     "static/js/2.b8c11736.chunk.js": "/Burger-Builder-App/static/js/2.b8c11736.chunk.js",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.6316881f.js",
     "static/js/2.b8c11736.chunk.js",
     "static/css/main.42bbe037.chunk.css",
-    "static/js/main.b3e028bb.chunk.js"
+    "static/js/main.279d672f.chunk.js"
   ]
 }
