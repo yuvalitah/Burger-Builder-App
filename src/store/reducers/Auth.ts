@@ -8,7 +8,7 @@ const initialState: IAuthState = {
   userId: null,
   error: null,
   loading: false,
-  authRedirectPath: "/",
+  authRedirectPath: "/Burger-Builder-App",
 };
 
 const authStart = (state: IAuthState, action: AnyAction): IAuthState => {

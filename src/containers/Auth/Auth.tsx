@@ -47,7 +47,7 @@ const Auth = (props) => {
 
   useEffect(() => {
     if (!props.buildingBurger && props.authRedirectPath !== "/") {
-      props.onSetAuthRedirectPath("/");
+      props.onSetAuthRedirectPath("/Burger-Builder-App");
     }
   });
 

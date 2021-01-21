@@ -35,7 +35,7 @@ export const BurgerBuilder = (props) => {
     if (props.isAuthenticated) {
       setPurchasing(true);
     } else {
-      props.onSetAuthRedirectPath("/checkout");
+      props.onSetAuthRedirectPath("/Burger-Builder-App/checkout");
       props.history.push("/Burger-Builder-App/auth");
     }
   };
